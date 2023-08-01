@@ -1,0 +1,81 @@
+/* Holy Grail Border */
+
+
+.wrapper{
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-gap: 1em;
+grid-auto-rows: 200px;
+}
+
+/* Header */
+.header{
+  background-color: LightSkyBlue;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  text-align: center;
+
+}
+
+/* Menu Side-Bar */
+.left{
+background-color: Salmon;
+grid-column: 1;
+grid-row: 2 / 5;
+text-align: center;
+
+}
+
+/* Main Content Area */
+.center{
+background-color: PeachPuff;
+grid-column: 2;
+grid-row: 2 / 5;
+text-align: center;
+
+}
+
+/* Advertisement */
+.right{
+background-color: Salmon;
+grid-column: 3;
+grid-row: 2 / 5;
+text-align: center;
+
+}
+
+/* Footer */
+.footer{
+background-color: LightSkyBlue;
+grid-column: 1 / span 3;
+grid-row: 5;
+height: 225px;
+
+
+
+}
+
+.wrapper > div{
+
+padding: 1em;
+}
+
+p{
+  text-indent: 5%;
+}
+
+h1 {
+
+  font-size: 30px;
+
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
